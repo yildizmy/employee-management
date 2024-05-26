@@ -4,38 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="828b8a5f-c021-4161-9e44-e1f8c964f38a" name="Changes" comment="update dependencies">
-      <change afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-service/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-service/Jenkinsfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-service/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-service/src/main/resources/config/department-service-docker.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-service/src/main/resources/config/department-service.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-service/src/main/resources/config/discovery-service-docker.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-service/src/main/resources/config/discovery-service.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-service/src/main/resources/config/employee-service-docker.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-service/src/main/resources/config/employee-service-instance2.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-service/src/main/resources/config/employee-service.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-service/src/main/resources/config/gateway-service-docker.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-service/src/main/resources/config/gateway-service.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-service/src/main/resources/config/organization-service-docker.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-service/src/main/resources/config/organization-service.yml" afterDir="false" />
+    <list default="true" id="828b8a5f-c021-4161-9e44-e1f8c964f38a" name="Changes" comment="add default Jenkinsfile">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-service/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-service/src/test/java/com/github/yildizmy/ConfigServiceApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/discovery-service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/organization-service/HELP.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -61,6 +50,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;false&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
@@ -77,17 +67,55 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.smartKeys&quot;
   }
 }</component>
-  <component name="RunManager" selected="Spring Boot.DiscoveryServiceApplication">
-    <configuration name="ConfigServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean install" />
+      <command value="mvn mvn clean install" />
+      <command value="mvn clean package -Pbuild-image" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.OrganizationApplication">
+    <configuration name="ConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="config-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.github.yildizmy.ConfigServiceApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.github.yildizmy.ConfigApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DiscoveryServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+    <configuration name="DepartmentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="department-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.github.yildizmy.DepartmentApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiscoveryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="discovery-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.github.yildizmy.DiscoveryServiceApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.github.yildizmy.DiscoveryApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="employee-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.github.yildizmy.EmployeeApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="gateway-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.github.yildizmy.GatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrganizationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="organization-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.github.yildizmy.OrganizationApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -104,7 +132,10 @@
       <workItem from="1716637976443" duration="526000" />
       <workItem from="1716638519781" duration="1105000" />
       <workItem from="1716639655509" duration="877000" />
-      <workItem from="1716640560820" duration="3280000" />
+      <workItem from="1716640560820" duration="7075000" />
+      <workItem from="1716660544725" duration="2411000" />
+      <workItem from="1716664628949" duration="3229000" />
+      <workItem from="1716703034163" duration="7669000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -146,7 +177,191 @@
       <option name="project" value="LOCAL" />
       <updated>1716641577027</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="update .gitignore">
+      <option name="closed" value="true" />
+      <created>1716643878842</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1716643878842</updated>
+    </task>
+    <task id="LOCAL-00007" summary="remove applicat">
+      <option name="closed" value="true" />
+      <created>1716643949144</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1716643949144</updated>
+    </task>
+    <task id="LOCAL-00008" summary="remove redundant file">
+      <option name="closed" value="true" />
+      <created>1716643979406</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1716643979406</updated>
+    </task>
+    <task id="LOCAL-00009" summary="remove redundant test">
+      <option name="closed" value="true" />
+      <created>1716643992689</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1716643992689</updated>
+    </task>
+    <task id="LOCAL-00010" summary="update ompi file">
+      <option name="closed" value="true" />
+      <created>1716644092031</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1716644092031</updated>
+    </task>
+    <task id="LOCAL-00011" summary="update compiler file">
+      <option name="closed" value="true" />
+      <created>1716644115173</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1716644115173</updated>
+    </task>
+    <task id="LOCAL-00012" summary="implement config-service">
+      <option name="closed" value="true" />
+      <created>1716710687265</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1716710687266</updated>
+    </task>
+    <task id="LOCAL-00013" summary="implement department-service">
+      <option name="closed" value="true" />
+      <created>1716710899678</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1716710899678</updated>
+    </task>
+    <task id="LOCAL-00014" summary="implement discovery-service">
+      <option name="closed" value="true" />
+      <created>1716711137727</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1716711137727</updated>
+    </task>
+    <task id="LOCAL-00015" summary="implement employee-service">
+      <option name="closed" value="true" />
+      <created>1716711218453</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1716711218453</updated>
+    </task>
+    <task id="LOCAL-00016" summary="implement organization-service">
+      <option name="closed" value="true" />
+      <created>1716711273882</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1716711273883</updated>
+    </task>
+    <task id="LOCAL-00017" summary="implement gateway-service">
+      <option name="closed" value="true" />
+      <created>1716711364398</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1716711364398</updated>
+    </task>
+    <task id="LOCAL-00018" summary="update app properties of gateway-service">
+      <option name="closed" value="true" />
+      <created>1716711684344</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1716711684344</updated>
+    </task>
+    <task id="LOCAL-00019" summary="update .gitignore for department-service">
+      <option name="closed" value="true" />
+      <created>1716712234108</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1716712234108</updated>
+    </task>
+    <task id="LOCAL-00020" summary="update .gitignore for discovery-service">
+      <option name="closed" value="true" />
+      <created>1716712356378</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1716712356378</updated>
+    </task>
+    <task id="LOCAL-00021" summary="update .gitignore for employee-service">
+      <option name="closed" value="true" />
+      <created>1716712596743</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1716712596743</updated>
+    </task>
+    <task id="LOCAL-00022" summary="update .gitignore for gateway-service">
+      <option name="closed" value="true" />
+      <created>1716712626045</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1716712626045</updated>
+    </task>
+    <task id="LOCAL-00023" summary="update .gitignore for organization-service">
+      <option name="closed" value="true" />
+      <created>1716712677315</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1716712677315</updated>
+    </task>
+    <task id="LOCAL-00024" summary="update compiler file">
+      <option name="closed" value="true" />
+      <created>1716712712950</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1716712712950</updated>
+    </task>
+    <task id="LOCAL-00025" summary="remove help.md file from gate-service">
+      <option name="closed" value="true" />
+      <created>1716712771745</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1716712771745</updated>
+    </task>
+    <task id="LOCAL-00026" summary="remove help.md file from gateway-service">
+      <option name="closed" value="true" />
+      <created>1716712786408</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1716712786408</updated>
+    </task>
+    <task id="LOCAL-00027" summary="remove help.md file from organization-service">
+      <option name="closed" value="true" />
+      <created>1716712819053</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1716712819053</updated>
+    </task>
+    <task id="LOCAL-00028" summary="add default Jenkinsfile">
+      <option name="closed" value="true" />
+      <created>1716712957821</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1716712957821</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,10 +369,30 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <MESSAGE value="update .gitignore" />
     <MESSAGE value="delete help.md file" />
     <MESSAGE value="add discovery-service" />
     <MESSAGE value="update dependencies" />
-    <option name="LAST_COMMIT_MESSAGE" value="update dependencies" />
+    <MESSAGE value="update .gitignore" />
+    <MESSAGE value="remove redundant file" />
+    <MESSAGE value="remove redundant test" />
+    <MESSAGE value="update workspace file" />
+    <MESSAGE value="implement config-service" />
+    <MESSAGE value="implement department-service" />
+    <MESSAGE value="implement discovery-service" />
+    <MESSAGE value="implement employee-service" />
+    <MESSAGE value="implement organization-service" />
+    <MESSAGE value="implement gateway-service" />
+    <MESSAGE value="update app properties of gateway-service" />
+    <MESSAGE value="update .gitignore for department-service" />
+    <MESSAGE value="update .gitignore for discovery-service" />
+    <MESSAGE value="update .gitignore for employee-service" />
+    <MESSAGE value="update .gitignore for gateway-service" />
+    <MESSAGE value="update .gitignore for organization-service" />
+    <MESSAGE value="update compiler file" />
+    <MESSAGE value="remove help.md file from employee-service" />
+    <MESSAGE value="remove help.md file from gateway-service" />
+    <MESSAGE value="remove help.md file from organization-service" />
+    <MESSAGE value="add default Jenkinsfile" />
+    <option name="LAST_COMMIT_MESSAGE" value="add default Jenkinsfile" />
   </component>
 </project>
