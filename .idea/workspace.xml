@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="828b8a5f-c021-4161-9e44-e1f8c964f38a" name="Changes" comment="add banner for organization-service">
-      <change afterPath="$PROJECT_DIR$/.idea/GitCommitMessageStorage.xml" afterDir="false" />
+    <list default="true" id="828b8a5f-c021-4161-9e44-e1f8c964f38a" name="Changes" comment="update .idea files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
@@ -144,15 +143,7 @@
       <workItem from="1716640560820" duration="7075000" />
       <workItem from="1716660544725" duration="2411000" />
       <workItem from="1716664628949" duration="3229000" />
-      <workItem from="1716703034163" duration="13671000" />
-    </task>
-    <task id="LOCAL-00003" summary="delete help.md file">
-      <option name="closed" value="true" />
-      <created>1716639562678</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1716639562678</updated>
+      <workItem from="1716703034163" duration="13764000" />
     </task>
     <task id="LOCAL-00004" summary="add discovery-service">
       <option name="closed" value="true" />
@@ -538,7 +529,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716720225738</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="update .idea files">
+      <option name="closed" value="true" />
+      <created>1716720260050</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1716720260050</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -551,7 +550,6 @@
     <MESSAGE value="add docker-compose file" />
     <MESSAGE value="remove help.md file from organization-service" />
     <MESSAGE value="update encodings file" />
-    <MESSAGE value="update .idea files" />
     <MESSAGE value="update workspace file" />
     <MESSAGE value="update app properties file" />
     <MESSAGE value="add startup info for config-service" />
@@ -570,6 +568,7 @@
     <MESSAGE value="add banner for employee-service" />
     <MESSAGE value="add banner for gateway-service" />
     <MESSAGE value="add banner for organization-service" />
-    <option name="LAST_COMMIT_MESSAGE" value="add banner for organization-service" />
+    <MESSAGE value="update .idea files" />
+    <option name="LAST_COMMIT_MESSAGE" value="update .idea files" />
   </component>
 </project>
