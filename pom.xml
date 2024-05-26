@@ -8,12 +8,12 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>3.2.5</version>
-        <relativePath />
+        <relativePath/>
     </parent>
 
-    <groupId>com.github.yildizmy</groupId>
+    <groupId>com.github.yildizmy.services</groupId>
     <artifactId>employee-management</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <properties>
@@ -27,6 +27,10 @@
     <modules>
         <module>config-service</module>
         <module>discovery-service</module>
+        <module>gateway-service</module>
+        <module>employee-service</module>
+        <module>department-service</module>
+        <module>organization-service</module>
     </modules>
 
     <dependencyManagement>
