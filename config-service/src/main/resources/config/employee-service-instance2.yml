@@ -3,8 +3,7 @@ server:
 
 eureka:
   instance:
-  #    hostname: employee-service  # ????
-  #    hostname: localhost
+    hostname: localhost
   client:
     serviceUrl:
       defaultZone: http://localhost:8061/eureka/
