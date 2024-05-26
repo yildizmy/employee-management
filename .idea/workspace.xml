@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="828b8a5f-c021-4161-9e44-e1f8c964f38a" name="Changes" comment="update .idea files">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="828b8a5f-c021-4161-9e44-e1f8c964f38a" name="Changes" comment="add banner for organization-service">
+      <change afterPath="$PROJECT_DIR$/.idea/GitCommitMessageStorage.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-service/src/main/resources/config/employee-service-instance2.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/src/main/resources/config/employee-service-instance2.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,29 +42,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;false&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-21&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/dev/my-projects/employee-management&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.smartKeys&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "false",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "corretto-21",
+    "last_opened_file_path": "D:/dev/my-projects/employee-management/organization-service/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "editor.preferences.smartKeys"
   }
-}</component>
+}]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\dev\my-projects\employee-management\organization-service\src\main\resources" />
+      <recent name="D:\dev\my-projects\employee-management\gateway-service\src\main\resources" />
+      <recent name="D:\dev\my-projects\employee-management\employee-service\src\main\resources" />
+      <recent name="D:\dev\my-projects\employee-management\discovery-service\src\main\resources" />
+      <recent name="D:\dev\my-projects\employee-management\department-service\src\main\resources" />
+    </key>
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
@@ -74,7 +86,7 @@
       <command value="mvn clean package -Pbuild-image" />
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.OrganizationApplication">
+  <component name="RunManager" selected="Spring Boot.ConfigApplication">
     <configuration name="ConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="config-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.github.yildizmy.ConfigApplication" />
@@ -132,23 +144,7 @@
       <workItem from="1716640560820" duration="7075000" />
       <workItem from="1716660544725" duration="2411000" />
       <workItem from="1716664628949" duration="3229000" />
-      <workItem from="1716703034163" duration="8717000" />
-    </task>
-    <task id="LOCAL-00001" summary="initial commit">
-      <option name="closed" value="true" />
-      <created>1716639437292</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1716639437293</updated>
-    </task>
-    <task id="LOCAL-00002" summary="update .gitignore">
-      <option name="closed" value="true" />
-      <created>1716639530051</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1716639530051</updated>
+      <workItem from="1716703034163" duration="13671000" />
     </task>
     <task id="LOCAL-00003" summary="delete help.md file">
       <option name="closed" value="true" />
@@ -398,38 +394,182 @@
       <option name="project" value="LOCAL" />
       <updated>1716713173113</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="update workspace file">
+      <option name="closed" value="true" />
+      <created>1716715296123</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1716715296123</updated>
+    </task>
+    <task id="LOCAL-00035" summary="update app properties file">
+      <option name="closed" value="true" />
+      <created>1716715434410</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1716715434410</updated>
+    </task>
+    <task id="LOCAL-00036" summary="add startup info for config-service">
+      <option name="closed" value="true" />
+      <created>1716716950550</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1716716950550</updated>
+    </task>
+    <task id="LOCAL-00037" summary="add startup info for discovery-service">
+      <option name="closed" value="true" />
+      <created>1716716984345</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1716716984345</updated>
+    </task>
+    <task id="LOCAL-00038" summary="add startup info for discovery-service">
+      <option name="closed" value="true" />
+      <created>1716717019751</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1716717019752</updated>
+    </task>
+    <task id="LOCAL-00039" summary="add startup info for employee-service">
+      <option name="closed" value="true" />
+      <created>1716717046433</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1716717046433</updated>
+    </task>
+    <task id="LOCAL-00040" summary="add startup info for gateway-service">
+      <option name="closed" value="true" />
+      <created>1716717084173</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1716717084173</updated>
+    </task>
+    <task id="LOCAL-00041" summary="add startup info for organization-service">
+      <option name="closed" value="true" />
+      <created>1716717108255</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1716717108255</updated>
+    </task>
+    <task id="LOCAL-00042" summary="add dependency for config-service">
+      <option name="closed" value="true" />
+      <created>1716717158722</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1716717158722</updated>
+    </task>
+    <task id="LOCAL-00043" summary="add dependency for discovery-service">
+      <option name="closed" value="true" />
+      <created>1716717178908</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1716717178908</updated>
+    </task>
+    <task id="LOCAL-00044" summary="update .gitignore for root project">
+      <option name="closed" value="true" />
+      <created>1716717238680</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1716717238680</updated>
+    </task>
+    <task id="LOCAL-00045" summary="add app name">
+      <option name="closed" value="true" />
+      <created>1716719970515</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1716719970515</updated>
+    </task>
+    <task id="LOCAL-00046" summary="add banner for config-service">
+      <option name="closed" value="true" />
+      <created>1716720006905</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1716720006905</updated>
+    </task>
+    <task id="LOCAL-00047" summary="add banner for department-service">
+      <option name="closed" value="true" />
+      <created>1716720083635</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1716720083635</updated>
+    </task>
+    <task id="LOCAL-00048" summary="add banner for discovery-service">
+      <option name="closed" value="true" />
+      <created>1716720115772</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1716720115772</updated>
+    </task>
+    <task id="LOCAL-00049" summary="add banner for employee-service">
+      <option name="closed" value="true" />
+      <created>1716720144657</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1716720144657</updated>
+    </task>
+    <task id="LOCAL-00050" summary="add banner for gateway-service">
+      <option name="closed" value="true" />
+      <created>1716720177795</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1716720177796</updated>
+    </task>
+    <task id="LOCAL-00051" summary="add banner for organization-service">
+      <option name="closed" value="true" />
+      <created>1716720225738</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1716720225738</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update dependencies" />
-    <MESSAGE value="update .gitignore" />
-    <MESSAGE value="remove redundant file" />
-    <MESSAGE value="remove redundant test" />
-    <MESSAGE value="implement config-service" />
-    <MESSAGE value="implement department-service" />
-    <MESSAGE value="implement discovery-service" />
-    <MESSAGE value="implement employee-service" />
-    <MESSAGE value="implement organization-service" />
-    <MESSAGE value="implement gateway-service" />
-    <MESSAGE value="update app properties of gateway-service" />
-    <MESSAGE value="update .gitignore for department-service" />
-    <MESSAGE value="update .gitignore for discovery-service" />
-    <MESSAGE value="update .gitignore for employee-service" />
-    <MESSAGE value="update .gitignore for gateway-service" />
-    <MESSAGE value="update .gitignore for organization-service" />
-    <MESSAGE value="update compiler file" />
     <MESSAGE value="remove help.md file from employee-service" />
     <MESSAGE value="remove help.md file from gateway-service" />
     <MESSAGE value="add default Jenkinsfile" />
     <MESSAGE value="add docker-compose file" />
     <MESSAGE value="remove help.md file from organization-service" />
     <MESSAGE value="update encodings file" />
-    <MESSAGE value="update workspace file" />
     <MESSAGE value="update .idea files" />
-    <option name="LAST_COMMIT_MESSAGE" value="update .idea files" />
+    <MESSAGE value="update workspace file" />
+    <MESSAGE value="update app properties file" />
+    <MESSAGE value="add startup info for config-service" />
+    <MESSAGE value="add startup info for department-service" />
+    <MESSAGE value="add startup info for discovery-service" />
+    <MESSAGE value="add startup info for employee-service" />
+    <MESSAGE value="add startup info for gateway-service" />
+    <MESSAGE value="add startup info for organization-service" />
+    <MESSAGE value="add dependency for config-service" />
+    <MESSAGE value="add dependency for discovery-service" />
+    <MESSAGE value="update .gitignore for root project" />
+    <MESSAGE value="add app name" />
+    <MESSAGE value="add banner for config-service" />
+    <MESSAGE value="add banner for department-service" />
+    <MESSAGE value="add banner for discovery-service" />
+    <MESSAGE value="add banner for employee-service" />
+    <MESSAGE value="add banner for gateway-service" />
+    <MESSAGE value="add banner for organization-service" />
+    <option name="LAST_COMMIT_MESSAGE" value="add banner for organization-service" />
   </component>
 </project>
