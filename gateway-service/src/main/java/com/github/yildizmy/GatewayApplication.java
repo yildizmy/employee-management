@@ -10,7 +10,10 @@ import org.springframework.cloud.gateway.route.RouteDefinition;
 import org.springframework.cloud.gateway.route.RouteDefinitionLocator;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Lazy;
+import org.springframework.core.env.Environment;
 
+import java.net.InetAddress;
+import java.net.UnknownHostException;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
@@ -21,7 +24,28 @@ import java.util.Set;
 public class GatewayApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(GatewayApplication.class, args);
+        SpringApplication app = new SpringApplication(GatewayApplication.class);
+        Environment env = app.run(args).getEnvironment();
+        logApplicationStartup(env);
+    }
+
+    private static void logApplicationStartup(Environment env) {
+        String protocol = (env.getProperty("server.ssl.key-store") != null) ? "https" : "http";
+        String serverPort = env.getProperty("server.port");
+        String contextPath = env.getProperty("server.servlet.context-path", "/");
+        String hostAddress = "localhost";
+        try {
+            hostAddress = InetAddress.getLocalHost().getHostAddress();
+        } catch (UnknownHostException e) {
+            log.warn("The host name could not be determined, using `localhost` as fallback");
+        }
+        log.info("\n" +
+                "-------------------------------------------------------\n" +
+                "Application '" + env.getProperty("spring.application.name") + "' is running! Access URLs:\n" +
+                "Local:      " + protocol + "://localhost:" + serverPort + contextPath + "\n" +
+                "External:   " + protocol + "://" + hostAddress + ":" + serverPort + contextPath + "\n" +
+                "Profile(s): " + String.join(",", env.getActiveProfiles()) + "\n" +
+                "-------------------------------------------------------");
     }
 
     @Bean
