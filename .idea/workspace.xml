@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="828b8a5f-c021-4161-9e44-e1f8c964f38a" name="Changes" comment="add default Jenkinsfile">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="828b8a5f-c021-4161-9e44-e1f8c964f38a" name="Changes" comment="update .idea files">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/organization-service/HELP.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-service/src/main/resources/config/employee-service-instance2.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/src/main/resources/config/employee-service-instance2.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -135,7 +132,7 @@
       <workItem from="1716640560820" duration="7075000" />
       <workItem from="1716660544725" duration="2411000" />
       <workItem from="1716664628949" duration="3229000" />
-      <workItem from="1716703034163" duration="7669000" />
+      <workItem from="1716703034163" duration="8717000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -361,21 +358,57 @@
       <option name="project" value="LOCAL" />
       <updated>1716712957821</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="add docker-compose file">
+      <option name="closed" value="true" />
+      <created>1716713039838</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1716713039838</updated>
+    </task>
+    <task id="LOCAL-00030" summary="remove help.md file from organization-service">
+      <option name="closed" value="true" />
+      <created>1716713075709</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1716713075709</updated>
+    </task>
+    <task id="LOCAL-00031" summary="update encodings file">
+      <option name="closed" value="true" />
+      <created>1716713106860</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1716713106860</updated>
+    </task>
+    <task id="LOCAL-00032" summary="update workspace file">
+      <option name="closed" value="true" />
+      <created>1716713129418</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1716713129418</updated>
+    </task>
+    <task id="LOCAL-00033" summary="update .idea files">
+      <option name="closed" value="true" />
+      <created>1716713173113</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1716713173113</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="initial commit" />
-    <MESSAGE value="delete help.md file" />
-    <MESSAGE value="add discovery-service" />
     <MESSAGE value="update dependencies" />
     <MESSAGE value="update .gitignore" />
     <MESSAGE value="remove redundant file" />
     <MESSAGE value="remove redundant test" />
-    <MESSAGE value="update workspace file" />
     <MESSAGE value="implement config-service" />
     <MESSAGE value="implement department-service" />
     <MESSAGE value="implement discovery-service" />
@@ -391,8 +424,12 @@
     <MESSAGE value="update compiler file" />
     <MESSAGE value="remove help.md file from employee-service" />
     <MESSAGE value="remove help.md file from gateway-service" />
-    <MESSAGE value="remove help.md file from organization-service" />
     <MESSAGE value="add default Jenkinsfile" />
-    <option name="LAST_COMMIT_MESSAGE" value="add default Jenkinsfile" />
+    <MESSAGE value="add docker-compose file" />
+    <MESSAGE value="remove help.md file from organization-service" />
+    <MESSAGE value="update encodings file" />
+    <MESSAGE value="update workspace file" />
+    <MESSAGE value="update .idea files" />
+    <option name="LAST_COMMIT_MESSAGE" value="update .idea files" />
   </component>
 </project>
