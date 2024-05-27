@@ -78,7 +78,7 @@ docker compose up --build
 
 <br/>
 
-5. After database container starts on Docker, open backend project in using `IntelliJ IDEA`. Then select `Java 17` version via `File > Project Structure > Project > SDK` menu and run the services in the following order:
+5. After Zipkin container starts on Docker, open backend project in using `IntelliJ IDEA`. Then select `Java 21` version via `File > Project Structure > Project > SDK` menu and run the services in the following order:
 
 > [!IMPORTANT]
 > If _Lombok requires enabled annotation processing_ dialog appears at this stage, click _Enable annotation processing_ button.
@@ -93,6 +93,11 @@ docker compose up --build
 ### Dependencies
 
 * Spring Boot
+* Spring Cloud
+* Spring Cloud Netflix - Eureka
+* Zipkin
+* Spring Cloud Config
+* 
 * Spring Web
 * Spring Security
 * Spring Data JPA
@@ -108,16 +113,11 @@ docker compose up --build
 
 ### Documentation
 [Spring Boot](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/)<br/>
-[Spring Security](https://docs.spring.io/spring-security/reference/index.html)<br/>
-[Spring Data JPA](https://docs.spring.io/spring-data/jpa/docs/current/reference/html/)<br/>
-[springdoc-openapi v2](https://springdoc.org/v2/)<br/>
-[MapStruct](https://mapstruct.org/)<br/>
-[JUnit 5](https://junit.org/junit5/docs/snapshot/user-guide/)<br/>
-[Entity Relationship Diagram (ERD)](https://www.lucidchart.com/pages/er-diagrams)<br/>
-[React](https://react.dev/)<br/>
-[Material UI](https://mui.com/)<br/>
-[Notistack](https://notistack.com/features/basic)<br/>
-[Register of countries using the IBAN standard](https://www.iban.com/structure)<br/>
+[Spring Cloud](https://spring.io/projects/spring-cloud/)<br/>
+[Spring Cloud Netflix - Eureka](https://cloud.spring.io/spring-cloud-netflix/reference/html/)<br/>
+[Spring Cloud Config](https://docs.spring.io/spring-cloud-config/docs/current/reference/html/)<br/>
+[Docker](https://www.docker.com/)<br/>
+[Zipkin](https://zipkin.io/)<br/>
 
 <br/>
 
