@@ -145,15 +145,7 @@
       <workItem from="1716703034163" duration="18010000" />
       <workItem from="1716725128949" duration="11298000" />
       <workItem from="1716758597090" duration="11722000" />
-      <workItem from="1716820975866" duration="10040000" />
-    </task>
-    <task id="LOCAL-00024" summary="update compiler file">
-      <option name="closed" value="true" />
-      <created>1716712712950</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1716712712950</updated>
+      <workItem from="1716820975866" duration="10086000" />
     </task>
     <task id="LOCAL-00025" summary="remove help.md file from gate-service">
       <option name="closed" value="true" />
@@ -539,7 +531,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716850997667</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="update readme.md file">
+      <option name="closed" value="true" />
+      <created>1716851438266</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1716851438266</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

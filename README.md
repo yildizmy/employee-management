@@ -95,19 +95,9 @@ docker compose up --build
 * Spring Boot
 * Spring Cloud
 * Spring Cloud Netflix - Eureka
-* Zipkin
 * Spring Cloud Config
-* 
-* Spring Web
-* Spring Security
-* Spring Data JPA
-* Lombok
-* MapStruct
-* PostgreSQL
-* Flyway
-* React
-* Node.js
-* Material UI
+* Docker
+* Zipkin
 
 <br/>
 
