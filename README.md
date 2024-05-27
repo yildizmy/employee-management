@@ -2,7 +2,7 @@
 Sample Microservices with Spring Boot 3, Spring Cloud, FeignClient and Zipkin
 
 > [!NOTE]
-> In order to give a better insight and focus on microservices archittecture, some features e.g. database, services, validation are skipped in this application and in-memory data is used.
+> In order to give a better insight and focus on microservices architecture, some features e.g. database, services, validation are skipped in this application and in-memory data is used.
 
 <br/>
 

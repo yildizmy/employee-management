@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="828b8a5f-c021-4161-9e44-e1f8c964f38a" name="Changes" comment="update .idea files">
-      <change afterPath="$PROJECT_DIR$/config-service/src/main/resources/images/architecture.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="828b8a5f-c021-4161-9e44-e1f8c964f38a" name="Changes" comment="update readme.md file">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -146,15 +144,7 @@
       <workItem from="1716703034163" duration="18010000" />
       <workItem from="1716725128949" duration="11298000" />
       <workItem from="1716758597090" duration="11722000" />
-      <workItem from="1716820975866" duration="8889000" />
-    </task>
-    <task id="LOCAL-00019" summary="update .gitignore for department-service">
-      <option name="closed" value="true" />
-      <created>1716712234108</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1716712234108</updated>
+      <workItem from="1716820975866" duration="8987000" />
     </task>
     <task id="LOCAL-00020" summary="update .gitignore for discovery-service">
       <option name="closed" value="true" />
@@ -540,14 +530,21 @@
       <option name="project" value="LOCAL" />
       <updated>1716845497080</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="update readme.md file">
+      <option name="closed" value="true" />
+      <created>1716850301763</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1716850301763</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add startup info for organization-service" />
     <MESSAGE value="add dependency for config-service" />
     <MESSAGE value="add dependency for discovery-service" />
     <MESSAGE value="update .gitignore for root project" />
@@ -572,6 +569,7 @@
     <MESSAGE value="update .idea file" />
     <MESSAGE value="update package names" />
     <MESSAGE value="update .idea files" />
-    <option name="LAST_COMMIT_MESSAGE" value="update .idea files" />
+    <MESSAGE value="update readme.md file" />
+    <option name="LAST_COMMIT_MESSAGE" value="update readme.md file" />
   </component>
 </project>
