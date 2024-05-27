@@ -2,13 +2,12 @@
 Sample Microservices with Spring Boot 3, Spring Cloud, FeignClient and Zipkin
 
 > [!NOTE]
-> In order to give a better insight and focus on microservices architecture, some features e.g. database, services, validation are skipped in this application and in-memory data is used.
-
+> To provide a clearer focus on the microservices architecture, some features, such as the database, services, and validation, have been omitted in this application. Instead, an in-memory data is used.
 <br/>
 
 ### Description
 
-This project is created to demonstrate useful features of [Spring Cloud Project](https://spring.io/projects/spring-cloud) for building microservice-based architecture. By default Spring Cloud Config Server stores the configuration data inside the Git repository. We will change that behavior by activating the native mode. In this mode, Spring Cloud Config Server reads property sources from the classpath.
+This project is created to demonstrate useful features of [Spring Cloud Project](https://spring.io/projects/spring-cloud) for building microservice-based architecture. By default, Spring Cloud Config Server stores the configuration data inside the Git repository. We will change that behavior by activating the native mode. In this mode, Spring Cloud Config Server reads property sources from the classpath.
 
 <br/>
 
