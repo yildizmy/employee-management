@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="828b8a5f-c021-4161-9e44-e1f8c964f38a" name="Changes" comment="update .idea files">
+    <list default="true" id="828b8a5f-c021-4161-9e44-e1f8c964f38a" name="Changes" comment="add dependencies for organization-service">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
@@ -41,31 +42,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "false",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "corretto-21",
-    "last_opened_file_path": "D:/dev/my-projects/employee-management/organization-service/src/main/resources",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "editor.preferences.smartKeys"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-21&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/dev/my-projects/employee-management/organization-service/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.archetype.catalogs&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -80,12 +81,12 @@
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
-      <command value="mvn clean install" />
-      <command value="mvn mvn clean install" />
       <command value="mvn clean package -Pbuild-image" />
+      <command value="mvn mvn clean install" />
+      <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ConfigApplication">
+  <component name="RunManager" selected="Spring Boot.EmployeeApplication">
     <configuration name="ConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="config-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.github.yildizmy.ConfigApplication" />
@@ -143,87 +144,10 @@
       <workItem from="1716640560820" duration="7075000" />
       <workItem from="1716660544725" duration="2411000" />
       <workItem from="1716664628949" duration="3229000" />
-      <workItem from="1716703034163" duration="13764000" />
-    </task>
-    <task id="LOCAL-00004" summary="add discovery-service">
-      <option name="closed" value="true" />
-      <created>1716640079232</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1716640079232</updated>
-    </task>
-    <task id="LOCAL-00005" summary="update dependencies">
-      <option name="closed" value="true" />
-      <created>1716641577027</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1716641577027</updated>
-    </task>
-    <task id="LOCAL-00006" summary="update .gitignore">
-      <option name="closed" value="true" />
-      <created>1716643878842</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1716643878842</updated>
-    </task>
-    <task id="LOCAL-00007" summary="remove applicat">
-      <option name="closed" value="true" />
-      <created>1716643949144</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1716643949144</updated>
-    </task>
-    <task id="LOCAL-00008" summary="remove redundant file">
-      <option name="closed" value="true" />
-      <created>1716643979406</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1716643979406</updated>
-    </task>
-    <task id="LOCAL-00009" summary="remove redundant test">
-      <option name="closed" value="true" />
-      <created>1716643992689</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1716643992689</updated>
-    </task>
-    <task id="LOCAL-00010" summary="update ompi file">
-      <option name="closed" value="true" />
-      <created>1716644092031</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1716644092031</updated>
-    </task>
-    <task id="LOCAL-00011" summary="update compiler file">
-      <option name="closed" value="true" />
-      <created>1716644115173</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1716644115173</updated>
-    </task>
-    <task id="LOCAL-00012" summary="implement config-service">
-      <option name="closed" value="true" />
-      <created>1716710687265</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1716710687266</updated>
-    </task>
-    <task id="LOCAL-00013" summary="implement department-service">
-      <option name="closed" value="true" />
-      <created>1716710899678</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1716710899678</updated>
+      <workItem from="1716703034163" duration="18010000" />
+      <workItem from="1716725128949" duration="11298000" />
+      <workItem from="1716758597090" duration="11722000" />
+      <workItem from="1716820975866" duration="4171000" />
     </task>
     <task id="LOCAL-00014" summary="implement discovery-service">
       <option name="closed" value="true" />
@@ -537,22 +461,93 @@
       <option name="project" value="LOCAL" />
       <updated>1716720260050</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="update .idea files">
+      <option name="closed" value="true" />
+      <created>1716720372028</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1716720372028</updated>
+    </task>
+    <task id="LOCAL-00054" summary="update dependencies for project">
+      <option name="closed" value="true" />
+      <created>1716720419128</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1716720419128</updated>
+    </task>
+    <task id="LOCAL-00055" summary="format code">
+      <option name="closed" value="true" />
+      <created>1716811249158</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1716811249159</updated>
+    </task>
+    <task id="LOCAL-00056" summary="update snapshot versions">
+      <option name="closed" value="true" />
+      <created>1716824868266</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1716824868268</updated>
+    </task>
+    <task id="LOCAL-00057" summary="add dependencies for config-service">
+      <option name="closed" value="true" />
+      <created>1716824924209</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1716824924211</updated>
+    </task>
+    <task id="LOCAL-00058" summary="add dependencies for department-service">
+      <option name="closed" value="true" />
+      <created>1716824970282</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1716824970282</updated>
+    </task>
+    <task id="LOCAL-00059" summary="add dependencies for discovery-service">
+      <option name="closed" value="true" />
+      <created>1716825001302</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1716825001302</updated>
+    </task>
+    <task id="LOCAL-00060" summary="add dependencies for employee-service">
+      <option name="closed" value="true" />
+      <created>1716825049777</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1716825049777</updated>
+    </task>
+    <task id="LOCAL-00061" summary="add dependencies for gateway-service">
+      <option name="closed" value="true" />
+      <created>1716825076306</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1716825076306</updated>
+    </task>
+    <task id="LOCAL-00062" summary="add dependencies for organization-service">
+      <option name="closed" value="true" />
+      <created>1716825099768</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1716825099768</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="remove help.md file from employee-service" />
-    <MESSAGE value="remove help.md file from gateway-service" />
-    <MESSAGE value="add default Jenkinsfile" />
-    <MESSAGE value="add docker-compose file" />
-    <MESSAGE value="remove help.md file from organization-service" />
-    <MESSAGE value="update encodings file" />
-    <MESSAGE value="update workspace file" />
-    <MESSAGE value="update app properties file" />
-    <MESSAGE value="add startup info for config-service" />
     <MESSAGE value="add startup info for department-service" />
     <MESSAGE value="add startup info for discovery-service" />
     <MESSAGE value="add startup info for employee-service" />
@@ -569,6 +564,15 @@
     <MESSAGE value="add banner for gateway-service" />
     <MESSAGE value="add banner for organization-service" />
     <MESSAGE value="update .idea files" />
-    <option name="LAST_COMMIT_MESSAGE" value="update .idea files" />
+    <MESSAGE value="update dependencies for project" />
+    <MESSAGE value="format code" />
+    <MESSAGE value="update snapshot versions" />
+    <MESSAGE value="add dependencies for config-service" />
+    <MESSAGE value="add dependencies for department-service" />
+    <MESSAGE value="add dependencies for discovery-service" />
+    <MESSAGE value="add dependencies for employee-service" />
+    <MESSAGE value="add dependencies for gateway-service" />
+    <MESSAGE value="add dependencies for organization-service" />
+    <option name="LAST_COMMIT_MESSAGE" value="add dependencies for organization-service" />
   </component>
 </project>
