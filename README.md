@@ -88,6 +88,7 @@ docker run -d --name zipkin -p 9411:9411 openzipkin/zipkin
 * Spring Cloud
 * Spring Cloud Netflix - Eureka
 * Spring Cloud Config
+* Spring Cloud OpenFeign
 * Docker
 * Zipkin
 
@@ -98,6 +99,7 @@ docker run -d --name zipkin -p 9411:9411 openzipkin/zipkin
 [Spring Cloud](https://spring.io/projects/spring-cloud/)<br/>
 [Spring Cloud Netflix - Eureka](https://cloud.spring.io/spring-cloud-netflix/reference/html/)<br/>
 [Spring Cloud Config](https://docs.spring.io/spring-cloud-config/docs/current/reference/html/)<br/>
+[Spring Cloud OpenFeign](https://docs.spring.io/spring-cloud-openfeign/docs/current/reference/html/)<br/>
 [Docker](https://www.docker.com/)<br/>
 [Zipkin](https://zipkin.io/)<br/>
 
