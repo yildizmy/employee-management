@@ -90,9 +90,9 @@ $ curl http://localhost:8060/organization/
 $ curl http://localhost:8060/organization/1/with-departments
 ```
 
+<br/>
 
-
-
+Swagger UI page could be accessed on 
 
 ### Dependencies
 
