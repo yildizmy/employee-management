@@ -45,9 +45,6 @@ This microservices-based system consists of the following modules:
 
 <br/>
 
-
-
-
 ### Running the application
 
 In order to run the application on local, follow these steps:
@@ -81,6 +78,21 @@ docker run -d --name zipkin -p 9411:9411 openzipkin/zipkin
 - the other services (**employee-service**, **department-service**, **organization-service**)
 
 <br/>
+
+### Testing the application
+After starting the app, some test data is generated automatically and the following endpoints can be used in order to test services and communication between some services:
+
+```
+$ curl http://localhost:8060/employee/
+$ curl http://localhost:8060/department/organization/1
+$ curl http://localhost:8060/department/organization/1/with-employees
+$ curl http://localhost:8060/organization/
+$ curl http://localhost:8060/organization/1/with-departments
+```
+
+
+
+
 
 ### Dependencies
 
