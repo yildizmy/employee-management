@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="828b8a5f-c021-4161-9e44-e1f8c964f38a" name="Changes" comment="update package names">
+    <list default="true" id="828b8a5f-c021-4161-9e44-e1f8c964f38a" name="Changes" comment="update .idea files">
+      <change afterPath="$PROJECT_DIR$/config-service/src/main/resources/images/architecture.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-service/src/main/resources/config/department-service-docker.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/src/main/resources/config/department-service-docker.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-service/src/main/resources/config/department-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/src/main/resources/config/department-service.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-service/src/main/resources/config/employee-service-docker.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/src/main/resources/config/employee-service-docker.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-service/src/main/resources/config/employee-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/src/main/resources/config/employee-service.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-service/src/main/resources/config/organization-service-docker.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/src/main/resources/config/organization-service-docker.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-service/src/main/resources/config/organization-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/src/main/resources/config/organization-service.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,41 +41,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;false&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-21&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/dev/my-projects/employee-management/organization-service/src/main/resources&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.archetype.catalogs&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "false",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "corretto-21",
+    "last_opened_file_path": "D:/dev/my-projects/employee-management/config-service/src/main/resources/images",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.archetype.catalogs"
   }
-}</component>
+}]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\dev\my-projects\employee-management\config-service\src\main\resources\images" />
       <recent name="D:\dev\my-projects\employee-management\organization-service\src\main\resources" />
       <recent name="D:\dev\my-projects\employee-management\gateway-service\src\main\resources" />
       <recent name="D:\dev\my-projects\employee-management\employee-service\src\main\resources" />
       <recent name="D:\dev\my-projects\employee-management\discovery-service\src\main\resources" />
-      <recent name="D:\dev\my-projects\employee-management\department-service\src\main\resources" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -151,23 +146,7 @@
       <workItem from="1716703034163" duration="18010000" />
       <workItem from="1716725128949" duration="11298000" />
       <workItem from="1716758597090" duration="11722000" />
-      <workItem from="1716820975866" duration="4711000" />
-    </task>
-    <task id="LOCAL-00017" summary="implement gateway-service">
-      <option name="closed" value="true" />
-      <created>1716711364398</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1716711364398</updated>
-    </task>
-    <task id="LOCAL-00018" summary="update app properties of gateway-service">
-      <option name="closed" value="true" />
-      <created>1716711684344</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1716711684344</updated>
+      <workItem from="1716820975866" duration="8889000" />
     </task>
     <task id="LOCAL-00019" summary="update .gitignore for department-service">
       <option name="closed" value="true" />
@@ -545,7 +524,23 @@
       <option name="project" value="LOCAL" />
       <updated>1716825248028</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="update package names">
+      <option name="closed" value="true" />
+      <created>1716845444082</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1716845444082</updated>
+    </task>
+    <task id="LOCAL-00067" summary="update .idea files">
+      <option name="closed" value="true" />
+      <created>1716845497080</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1716845497080</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -563,7 +558,6 @@
     <MESSAGE value="add banner for employee-service" />
     <MESSAGE value="add banner for gateway-service" />
     <MESSAGE value="add banner for organization-service" />
-    <MESSAGE value="update .idea files" />
     <MESSAGE value="update dependencies for project" />
     <MESSAGE value="format code" />
     <MESSAGE value="update snapshot versions" />
@@ -577,6 +571,7 @@
     <MESSAGE value="update encodings file" />
     <MESSAGE value="update .idea file" />
     <MESSAGE value="update package names" />
-    <option name="LAST_COMMIT_MESSAGE" value="update package names" />
+    <MESSAGE value="update .idea files" />
+    <option name="LAST_COMMIT_MESSAGE" value="update .idea files" />
   </component>
 </project>
