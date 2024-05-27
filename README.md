@@ -78,7 +78,7 @@ docker run -d --name zipkin -p 9411:9411 openzipkin/zipkin
 - **config-service**
 - **discovery-service**
 - **gateway-service**
-- other services (**employee-service**, **department-service**, **organization-service**)
+- the other services (**employee-service**, **department-service**, **organization-service**)
 
 <br/>
 
