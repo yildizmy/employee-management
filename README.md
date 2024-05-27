@@ -73,7 +73,7 @@ docker run -d --name zipkin -p 9411:9411 openzipkin/zipkin
 4. Open the project using `IntelliJ IDEA`. Then select `Java 21` version via `File > Project Structure > Project > SDK` menu and run the services in the following order:
 
 > [!IMPORTANT]
-> If _"Lombok requires enabled annotation processing"_ dialog appears at this stage, click _Enable annotation processing_ button.
+> If _"Lombok requires enabled annotation processing"_ dialog appears at this stage, click "_Enable annotation processing_" button.
 
 - **config-service**
 - **discovery-service**
