@@ -14,16 +14,16 @@ This project is created to demonstrate useful features of [Spring Cloud Project]
 ### Architecture
 
 This microservices-based system consists of the following modules:
+
+
+<img src="config-service/src/main/resources/images/architecture.png" width="960"/>
+
 - **gateway-service** : acts as a proxy/gateway in our architecture
 - **config-service** : uses Spring Cloud Config Server for running configuration server in the `native` mode
 - **discovery-service** : uses Spring Cloud Netflix Eureka as an embedded discovery server
 - **employee-service** : sample microservice that allows to perform CRUD operation on in-memory repository of employees
 - **department-service** : sample microservice that allows to perform CRUD operation on in-memory repository of departments. Communicates with employee-service.
 - **organization-service** : sample microservice that allows to perform CRUD operation on in-memory repository of organizations. Communicates with both employee-service and organization-service.
-
-The microservices architecture is shown below:
-
-<img src="config-service/src/main/resources/images/architecture.png" width="960"/>
 
 <br/>
 
