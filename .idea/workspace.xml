@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="828b8a5f-c021-4161-9e44-e1f8c964f38a" name="Changes" comment="add dependencies for organization-service">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="828b8a5f-c021-4161-9e44-e1f8c964f38a" name="Changes" comment="update package names">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-service/src/main/resources/config/department-service-docker.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/src/main/resources/config/department-service-docker.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-service/src/main/resources/config/department-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/src/main/resources/config/department-service.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-service/src/main/resources/config/employee-service-docker.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/src/main/resources/config/employee-service-docker.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-service/src/main/resources/config/employee-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/src/main/resources/config/employee-service.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-service/src/main/resources/config/organization-service-docker.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/src/main/resources/config/organization-service-docker.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-service/src/main/resources/config/organization-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/src/main/resources/config/organization-service.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,31 +151,7 @@
       <workItem from="1716703034163" duration="18010000" />
       <workItem from="1716725128949" duration="11298000" />
       <workItem from="1716758597090" duration="11722000" />
-      <workItem from="1716820975866" duration="4171000" />
-    </task>
-    <task id="LOCAL-00014" summary="implement discovery-service">
-      <option name="closed" value="true" />
-      <created>1716711137727</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1716711137727</updated>
-    </task>
-    <task id="LOCAL-00015" summary="implement employee-service">
-      <option name="closed" value="true" />
-      <created>1716711218453</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1716711218453</updated>
-    </task>
-    <task id="LOCAL-00016" summary="implement organization-service">
-      <option name="closed" value="true" />
-      <created>1716711273882</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1716711273883</updated>
+      <workItem from="1716820975866" duration="4711000" />
     </task>
     <task id="LOCAL-00017" summary="implement gateway-service">
       <option name="closed" value="true" />
@@ -541,17 +521,37 @@
       <option name="project" value="LOCAL" />
       <updated>1716825099768</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="update dependencies for root">
+      <option name="closed" value="true" />
+      <created>1716825189262</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1716825189262</updated>
+    </task>
+    <task id="LOCAL-00064" summary="update encodings file">
+      <option name="closed" value="true" />
+      <created>1716825231259</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1716825231259</updated>
+    </task>
+    <task id="LOCAL-00065" summary="update .idea file">
+      <option name="closed" value="true" />
+      <created>1716825248028</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1716825248028</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add startup info for department-service" />
-    <MESSAGE value="add startup info for discovery-service" />
-    <MESSAGE value="add startup info for employee-service" />
-    <MESSAGE value="add startup info for gateway-service" />
     <MESSAGE value="add startup info for organization-service" />
     <MESSAGE value="add dependency for config-service" />
     <MESSAGE value="add dependency for discovery-service" />
@@ -573,6 +573,10 @@
     <MESSAGE value="add dependencies for employee-service" />
     <MESSAGE value="add dependencies for gateway-service" />
     <MESSAGE value="add dependencies for organization-service" />
-    <option name="LAST_COMMIT_MESSAGE" value="add dependencies for organization-service" />
+    <MESSAGE value="update dependencies for root" />
+    <MESSAGE value="update encodings file" />
+    <MESSAGE value="update .idea file" />
+    <MESSAGE value="update package names" />
+    <option name="LAST_COMMIT_MESSAGE" value="update package names" />
   </component>
 </project>
