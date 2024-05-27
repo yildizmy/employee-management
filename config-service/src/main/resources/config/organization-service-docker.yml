@@ -11,7 +11,7 @@ logging:
     console: "%d{yyyy-MM-dd HH:mm:ss} [%X{traceId:-},%X{spanId:-}] ${LOG_LEVEL_PATTERN:-%5p} %m%n"
 
 springdoc:
-  packagesToScan: pl.piomin.services.organization
+  packagesToScan: com.github.yildizmy.organization
 
 spring:
   output:

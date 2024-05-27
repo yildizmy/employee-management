@@ -15,7 +15,7 @@ logging:
     console: "%clr(%d{yyyy-MM-dd HH:mm:ss}){blue} %clr([%X{traceId:-},%X{spanId:-}]){cyan} %clr(${LOG_LEVEL_PATTERN:-%5p}) %m%n"
 
 springdoc:
-  packagesToScan: pl.piomin.services.department
+  packagesToScan: com.github.yildizmy.department
   cache:
     disabled: true
   version: '@springdoc.version@'
