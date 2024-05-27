@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="828b8a5f-c021-4161-9e44-e1f8c964f38a" name="Changes" comment="update readme.md file">
+    <list default="true" id="828b8a5f-c021-4161-9e44-e1f8c964f38a" name="Changes" comment="update dependencies">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/organization-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/organization-service/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,6 +148,7 @@
       <workItem from="1716725128949" duration="11298000" />
       <workItem from="1716758597090" duration="11722000" />
       <workItem from="1716820975866" duration="11260000" />
+      <workItem from="1716853125217" duration="484000" />
     </task>
     <task id="LOCAL-00035" summary="update app properties file">
       <option name="closed" value="true" />
@@ -546,7 +549,6 @@
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add dependency for config-service" />
     <MESSAGE value="add dependency for discovery-service" />
     <MESSAGE value="update .gitignore for root project" />
     <MESSAGE value="add app name" />
@@ -571,6 +573,7 @@
     <MESSAGE value="update package names" />
     <MESSAGE value="update .idea files" />
     <MESSAGE value="update readme.md file" />
-    <option name="LAST_COMMIT_MESSAGE" value="update readme.md file" />
+    <MESSAGE value="update dependencies" />
+    <option name="LAST_COMMIT_MESSAGE" value="update dependencies" />
   </component>
 </project>
