@@ -82,7 +82,7 @@ docker run -d --name zipkin -p 9411:9411 openzipkin/zipkin
 
 ### Testing the application
 
-In order to test the application by sending request, see details on [How to test?](gateway-service/src/main/resources/docs/how_to_test.md) sections.
+In order to test the application by sending request, see details on [How to test?](config-service/src/main/resources/docs/how_to_test.md) sections.
 
 <br/>
 
