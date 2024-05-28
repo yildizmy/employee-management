@@ -23,7 +23,7 @@ This microservices-based system consists of the following modules:
 - **discovery-service** : uses Spring Cloud Netflix Eureka as an embedded discovery server
 - **employee-service** : sample microservice that allows to perform CRUD operation on in-memory repository of employees
 - **department-service** : sample microservice that allows to perform CRUD operation on in-memory repository of departments. Communicates with employee-service.
-- **organization-service** : sample microservice that allows to perform CRUD operation on in-memory repository of organizations. Communicates with both employee-service and organization-service.
+- **organization-service** : sample microservice that allows to perform CRUD operation on in-memory repository of organizations. Communicates with both employee-service and department-service.
 
 <br/>
 
@@ -79,20 +79,13 @@ docker run -d --name zipkin -p 9411:9411 openzipkin/zipkin
 
 <br/>
 
-### Testing the application
-After starting the app, some test data is generated automatically and the following endpoints can be used in order to test services and communication between some services:
 
-```
-$ curl http://localhost:8060/employee/
-$ curl http://localhost:8060/department/organization/1
-$ curl http://localhost:8060/department/organization/1/with-employees
-$ curl http://localhost:8060/organization/
-$ curl http://localhost:8060/organization/1/with-departments
-```
+### Testing the application
+
+In order to test the application by sending request, see details on [How to test?](gateway-service/src/main/resources/docs/how_to_test.md) sections.
 
 <br/>
 
-Swagger UI page could be accessed on 
 
 ### Dependencies
 
