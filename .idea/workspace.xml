@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="828b8a5f-c021-4161-9e44-e1f8c964f38a" name="Changes" comment="remove help.md file">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="828b8a5f-c021-4161-9e44-e1f8c964f38a" name="Changes" comment="update workspace.xml">
       <change beforePath="$PROJECT_DIR$/config-service/src/main/resources/docs/how_to_test.md" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/src/main/resources/docs/how_to_test.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gateway-service/src/main/java/com/github/yildizmy/GatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/src/main/java/com/github/yildizmy/GatewayApplication.java" afterDir="false" />
     </list>
@@ -149,15 +148,7 @@
       <workItem from="1716820975866" duration="11260000" />
       <workItem from="1716853125217" duration="484000" />
       <workItem from="1716853760797" duration="27349000" />
-      <workItem from="1717014924733" duration="10029000" />
-    </task>
-    <task id="LOCAL-00043" summary="add dependency for discovery-service">
-      <option name="closed" value="true" />
-      <created>1716717178908</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1716717178908</updated>
+      <workItem from="1717014924733" duration="10394000" />
     </task>
     <task id="LOCAL-00044" summary="update .gitignore for root project">
       <option name="closed" value="true" />
@@ -543,14 +534,21 @@
       <option name="project" value="LOCAL" />
       <updated>1717076253057</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="update workspace.xml">
+      <option name="closed" value="true" />
+      <created>1717101598743</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1717101598743</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add banner for discovery-service" />
     <MESSAGE value="add banner for employee-service" />
     <MESSAGE value="add banner for gateway-service" />
     <MESSAGE value="add banner for organization-service" />
@@ -575,7 +573,8 @@
     <MESSAGE value="format code" />
     <MESSAGE value="update method names for organization-service" />
     <MESSAGE value="remove help.md file" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove help.md file" />
+    <MESSAGE value="update workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="update workspace.xml" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
