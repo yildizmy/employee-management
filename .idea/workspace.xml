@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="828b8a5f-c021-4161-9e44-e1f8c964f38a" name="Changes" comment="update dependencies">
+    <list default="true" id="828b8a5f-c021-4161-9e44-e1f8c964f38a" name="Changes" comment="remove help.md file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/employee-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/organization-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/organization-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-service/src/main/resources/docs/how_to_test.md" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/src/main/resources/docs/how_to_test.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-service/src/main/java/com/github/yildizmy/GatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/src/main/java/com/github/yildizmy/GatewayApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +54,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-21&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/dev/my-projects/employee-management/config-service/src/main/resources/images&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/dev/my-projects/interview&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -86,7 +85,7 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.OrganizationApplication">
+  <component name="RunManager" selected="Spring Boot.GatewayApplication">
     <configuration name="ConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="config-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.github.yildizmy.ConfigApplication" />
@@ -149,70 +148,8 @@
       <workItem from="1716758597090" duration="11722000" />
       <workItem from="1716820975866" duration="11260000" />
       <workItem from="1716853125217" duration="484000" />
-    </task>
-    <task id="LOCAL-00035" summary="update app properties file">
-      <option name="closed" value="true" />
-      <created>1716715434410</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1716715434410</updated>
-    </task>
-    <task id="LOCAL-00036" summary="add startup info for config-service">
-      <option name="closed" value="true" />
-      <created>1716716950550</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1716716950550</updated>
-    </task>
-    <task id="LOCAL-00037" summary="add startup info for discovery-service">
-      <option name="closed" value="true" />
-      <created>1716716984345</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1716716984345</updated>
-    </task>
-    <task id="LOCAL-00038" summary="add startup info for discovery-service">
-      <option name="closed" value="true" />
-      <created>1716717019751</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1716717019752</updated>
-    </task>
-    <task id="LOCAL-00039" summary="add startup info for employee-service">
-      <option name="closed" value="true" />
-      <created>1716717046433</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1716717046433</updated>
-    </task>
-    <task id="LOCAL-00040" summary="add startup info for gateway-service">
-      <option name="closed" value="true" />
-      <created>1716717084173</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1716717084173</updated>
-    </task>
-    <task id="LOCAL-00041" summary="add startup info for organization-service">
-      <option name="closed" value="true" />
-      <created>1716717108255</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1716717108255</updated>
-    </task>
-    <task id="LOCAL-00042" summary="add dependency for config-service">
-      <option name="closed" value="true" />
-      <created>1716717158722</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1716717158722</updated>
+      <workItem from="1716853760797" duration="27349000" />
+      <workItem from="1717014924733" duration="10029000" />
     </task>
     <task id="LOCAL-00043" summary="add dependency for discovery-service">
       <option name="closed" value="true" />
@@ -542,24 +479,82 @@
       <option name="project" value="LOCAL" />
       <updated>1716852516078</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="update dependencies">
+      <option name="closed" value="true" />
+      <created>1716854030842</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1716854030843</updated>
+    </task>
+    <task id="LOCAL-00085" summary="update readme">
+      <option name="closed" value="true" />
+      <created>1716925127228</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1716925127228</updated>
+    </task>
+    <task id="LOCAL-00086" summary="update readme">
+      <option name="closed" value="true" />
+      <created>1716925404794</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1716925404795</updated>
+    </task>
+    <task id="LOCAL-00087" summary="update method names for department-service">
+      <option name="closed" value="true" />
+      <created>1717076029062</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1717076029063</updated>
+    </task>
+    <task id="LOCAL-00088" summary="update method names for employee-service">
+      <option name="closed" value="true" />
+      <created>1717076075899</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1717076075899</updated>
+    </task>
+    <task id="LOCAL-00089" summary="format code">
+      <option name="closed" value="true" />
+      <created>1717076163032</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1717076163032</updated>
+    </task>
+    <task id="LOCAL-00090" summary="update method names for organization-service">
+      <option name="closed" value="true" />
+      <created>1717076190186</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1717076190186</updated>
+    </task>
+    <task id="LOCAL-00091" summary="remove help.md file">
+      <option name="closed" value="true" />
+      <created>1717076253057</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1717076253057</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add dependency for discovery-service" />
-    <MESSAGE value="update .gitignore for root project" />
-    <MESSAGE value="add app name" />
-    <MESSAGE value="add banner for config-service" />
-    <MESSAGE value="add banner for department-service" />
     <MESSAGE value="add banner for discovery-service" />
     <MESSAGE value="add banner for employee-service" />
     <MESSAGE value="add banner for gateway-service" />
     <MESSAGE value="add banner for organization-service" />
     <MESSAGE value="update dependencies for project" />
-    <MESSAGE value="format code" />
     <MESSAGE value="update snapshot versions" />
     <MESSAGE value="add dependencies for config-service" />
     <MESSAGE value="add dependencies for department-service" />
@@ -574,6 +569,60 @@
     <MESSAGE value="update .idea files" />
     <MESSAGE value="update readme.md file" />
     <MESSAGE value="update dependencies" />
-    <option name="LAST_COMMIT_MESSAGE" value="update dependencies" />
+    <MESSAGE value="update readme" />
+    <MESSAGE value="update method names for department-service" />
+    <MESSAGE value="update method names for employee-service" />
+    <MESSAGE value="format code" />
+    <MESSAGE value="update method names for organization-service" />
+    <MESSAGE value="remove help.md file" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove help.md file" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/gateway-service/src/main/java/com/github/yildizmy/GatewayApplication.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/gateway-service/src/main/java/com/github/yildizmy/GatewayApplication.java</url>
+          <line>57</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/gateway-service/src/main/java/com/github/yildizmy/GatewayApplication.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/gateway-service/src/main/java/com/github/yildizmy/GatewayApplication.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/gateway-service/src/main/java/com/github/yildizmy/GatewayApplication.java</url>
+          <line>93</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/gateway-service/src/main/java/com/github/yildizmy/GatewayApplication.java</url>
+          <line>90</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="url" />
+        <watch expression="swaggerUrls" />
+        <watch expression="name" />
+        <watch expression="name.replace(&quot;-service&quot;, &quot;/&quot;)" />
+        <watch expression="swaggerUrl" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
