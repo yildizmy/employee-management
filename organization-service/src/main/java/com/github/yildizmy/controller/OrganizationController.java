@@ -16,8 +16,8 @@ import java.util.List;
 public class OrganizationController {
 
     private final OrganizationRepository repository;
-    private final DepartmentClient departmentClient;
     private final EmployeeClient employeeClient;
+    private final DepartmentClient departmentClient;
 
     @PostMapping("/")
     public Organization add(@RequestBody Organization organization) {
@@ -37,23 +37,23 @@ public class OrganizationController {
         return repository.findById(id);
     }
 
-    @GetMapping("/{id}/with-departments")
+    @GetMapping("/{id}/departments")
     public Organization findByIdWithDepartments(@PathVariable("id") Long id) {
         log.info("Organization find: id={}", id);
         Organization organization = repository.findById(id);
-        organization.setDepartments(departmentClient.findByOrganization(organization.getId()));
+        organization.setDepartments(departmentClient.findByOrganizationId(organization.getId()));
         return organization;
     }
 
-    @GetMapping("/{id}/with-departments-and-employees")
+    @GetMapping("/{id}/departments/employees")
     public Organization findByIdWithDepartmentsAndEmployees(@PathVariable("id") Long id) {
         log.info("Organization find: id={}", id);
         Organization organization = repository.findById(id);
-        organization.setDepartments(departmentClient.findByOrganizationWithEmployees(organization.getId()));
+        organization.setDepartments(departmentClient.findByOrganizationIdWithEmployees(organization.getId()));
         return organization;
     }
 
-    @GetMapping("/{id}/with-employees")
+    @GetMapping("/{id}/employees")
     public Organization findByIdWithEmployees(@PathVariable("id") Long id) {
         log.info("Organization find: id={}", id);
         Organization organization = repository.findById(id);
