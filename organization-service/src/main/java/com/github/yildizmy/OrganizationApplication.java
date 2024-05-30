@@ -18,7 +18,7 @@ import java.net.UnknownHostException;
 @SpringBootApplication
 @EnableFeignClients
 @OpenAPIDefinition(info =
-@Info(title = "Organization API", version = "1.0", description = "Documentation Organization API v1.0")
+    @Info(title = "Organization API", version = "1.0", description = "Documentation Organization API v1.0")
 )
 public class OrganizationApplication {
 
