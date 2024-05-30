@@ -26,15 +26,15 @@ public class EmployeeRepository {
         return employees;
     }
 
-    public List<Employee> findByDepartment(Long departmentId) {
+    public List<Employee> findByDepartmentId(Long id) {
         return employees.stream()
-                .filter(a -> a.getDepartmentId().equals(departmentId))
+                .filter(a -> a.getDepartmentId().equals(id))
                 .toList();
     }
 
-    public List<Employee> findByOrganization(Long organizationId) {
+    public List<Employee> findByOrganizationId(Long id) {
         return employees.stream()
-                .filter(a -> a.getOrganizationId().equals(organizationId))
+                .filter(a -> a.getOrganizationId().equals(id))
                 .toList();
     }
 }

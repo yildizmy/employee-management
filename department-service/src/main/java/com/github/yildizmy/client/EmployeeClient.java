@@ -10,6 +10,6 @@ import java.util.List;
 @FeignClient(name = "employee-service")
 public interface EmployeeClient {
 
-    @GetMapping("/department/{departmentId}")
-    List<Employee> findByDepartmentId(@PathVariable("departmentId") Long departmentId);
+    @GetMapping("/department/{id}")
+    List<Employee> findByDepartmentId(@PathVariable("id") Long id);
 }
