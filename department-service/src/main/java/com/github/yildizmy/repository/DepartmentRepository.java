@@ -26,9 +26,9 @@ public class DepartmentRepository {
         return departments;
     }
 
-    public List<Department> findByOrganization(Long organizationId) {
+    public List<Department> findByOrganizationId(Long id) {
         return departments.stream()
-                .filter(a -> a.getOrganizationId().equals(organizationId))
+                .filter(a -> a.getOrganizationId().equals(id))
                 .toList();
     }
 }

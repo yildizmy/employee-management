@@ -35,16 +35,16 @@ public class DepartmentController {
         return repository.findAll();
     }
 
-    @GetMapping("/organization/{organizationId}")
-    public List<Department> findByOrganization(@PathVariable("organizationId") Long organizationId) {
-        log.info("Department find: organizationId={}", organizationId);
-        return repository.findByOrganization(organizationId);
+    @GetMapping("/organizations/{id}")
+    public List<Department> findByOrganizationId(@PathVariable("id") Long id) {
+        log.info("Department find: organizationId={}", id);
+        return repository.findByOrganizationId(id);
     }
 
-    @GetMapping("/organization/{organizationId}/with-employees")
-    public List<Department> findByOrganizationWithEmployees(@PathVariable("organizationId") Long organizationId) {
-        log.info("Department find with employees: organizationId={}", organizationId);
-        List<Department> departments = repository.findByOrganization(organizationId);
+    @GetMapping("/organizations/{id}/employees")
+    public List<Department> findByOrganizationWithEmployees(@PathVariable("id") Long id) {
+        log.info("Department find with employees: organizationId={}", id);
+        List<Department> departments = repository.findByOrganizationId(id);
         departments.forEach(d -> d.setEmployees(employeeClient.findByDepartmentId(d.getId())));
         return departments;
     }
