@@ -8,10 +8,12 @@ import org.springframework.core.env.Environment;
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;
+
 @Slf4j(topic = "ConfigApplication")
 @EnableConfigServer
 @SpringBootApplication
 public class ConfigApplication {
+
     public static void main(String[] args) {
         SpringApplication app = new SpringApplication(ConfigApplication.class);
         Environment env = app.run(args).getEnvironment();
