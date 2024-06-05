@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="828b8a5f-c021-4161-9e44-e1f8c964f38a" name="Changes" comment="update workspace.xml">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-service/src/main/java/com/github/yildizmy/ConfigApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/src/main/java/com/github/yildizmy/ConfigApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-service/src/main/resources/config/department-service-docker.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/src/main/resources/config/department-service-docker.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-service/src/main/resources/config/department-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/src/main/resources/config/department-service.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-service/src/main/resources/config/employee-service-docker.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/src/main/resources/config/employee-service-docker.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-service/src/main/resources/config/employee-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/src/main/resources/config/employee-service.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-service/src/main/resources/config/organization-service-docker.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/src/main/resources/config/organization-service-docker.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-service/src/main/resources/config/organization-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/src/main/resources/config/organization-service.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config-service/src/main/resources/docs/how_to_test.md" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/src/main/resources/docs/how_to_test.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway-service/src/main/java/com/github/yildizmy/GatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/src/main/java/com/github/yildizmy/GatewayApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,9 +30,25 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "yildizmy"
+  }
+}]]></component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/yildizmy/employee-management.git",
+    "accountId": "9d53d9aa-4ce1-4e27-8575-d1e1f83ee9f8"
+  }
+}]]></component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -40,31 +63,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;false&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-21&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/dev/my-projects/interview&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.archetype.catalogs&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "false",
+    "Spring Boot.ConfigApplication.executor": "Debug",
+    "Spring Boot.DepartmentApplication.executor": "Debug",
+    "Spring Boot.DiscoveryApplication.executor": "Debug",
+    "Spring Boot.EmployeeApplication.executor": "Debug",
+    "Spring Boot.GatewayApplication.executor": "Debug",
+    "Spring Boot.OrganizationApplication.executor": "Debug",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "corretto-21",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/dev/my-projects/interview",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.archetype.catalogs",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -84,7 +116,16 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.GatewayApplication">
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.OrganizationApplication">
     <configuration name="ConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="config-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.github.yildizmy.ConfigApplication" />
@@ -127,6 +168,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17011.79" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17011.79" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -581,36 +630,18 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/gateway-service/src/main/java/com/github/yildizmy/GatewayApplication.java</url>
-          <line>58</line>
+          <line>24</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/gateway-service/src/main/java/com/github/yildizmy/GatewayApplication.java</url>
-          <line>57</line>
-          <properties>
-            <option name="lambda-ordinal" value="-1" />
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/gateway-service/src/main/java/com/github/yildizmy/GatewayApplication.java</url>
-          <line>63</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/gateway-service/src/main/java/com/github/yildizmy/GatewayApplication.java</url>
-          <line>61</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/gateway-service/src/main/java/com/github/yildizmy/GatewayApplication.java</url>
-          <line>93</line>
+          <line>64</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/gateway-service/src/main/java/com/github/yildizmy/GatewayApplication.java</url>
-          <line>90</line>
-          <option name="timeStamp" value="9" />
+          <line>62</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -621,6 +652,7 @@
         <watch expression="name" />
         <watch expression="name.replace(&quot;-service&quot;, &quot;/&quot;)" />
         <watch expression="swaggerUrl" />
+        <watch expression="urls" />
       </configuration>
     </watches-manager>
   </component>
