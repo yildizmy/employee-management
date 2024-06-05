@@ -13,7 +13,7 @@ logging:
     console: "%d{yyyy-MM-dd HH:mm:ss} [%X{traceId:-},%X{spanId:-}] ${LOG_LEVEL_PATTERN:-%5p} %m%n"
 
 springdoc:
-  packagesToScan: com.github.yildizmy.employee
+  packagesToScan: com.github.yildizmy
 
 spring:
   output:
