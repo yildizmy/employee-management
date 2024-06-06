@@ -21,16 +21,16 @@ public class EmployeeController {
         return repository.add(employee);
     }
 
-    @GetMapping("/{id}")
-    public Employee findById(@PathVariable("id") Long id) {
-        log.info("Employee findById: id={}", id);
-        return repository.findById(id);
-    }
-
     @GetMapping("/")
     public List<Employee> findAll() {
         log.info("Employee findAll");
         return repository.findAll();
+    }
+
+    @GetMapping("/{id}")
+    public Employee findById(@PathVariable("id") Long id) {
+        log.info("Employee findById: id={}", id);
+        return repository.findById(id);
     }
 
     @GetMapping("/departments/{id}")
