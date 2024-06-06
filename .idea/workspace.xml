@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="828b8a5f-c021-4161-9e44-e1f8c964f38a" name="Changes" comment="update project files">
+    <list default="true" id="828b8a5f-c021-4161-9e44-e1f8c964f38a" name="Changes" comment="add image">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config-service/src/main/resources/docs/how_to_test.md" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/src/main/resources/docs/how_to_test.md" afterDir="false" />
     </list>
@@ -118,7 +118,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ConfigApplication">
+  <component name="RunManager" selected="Spring Boot.OrganizationApplication">
     <configuration name="ConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="config-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.github.yildizmy.ConfigApplication" />
@@ -201,23 +201,7 @@
       <workItem from="1717014924733" duration="10394000" />
       <workItem from="1717688477035" duration="889000" />
       <workItem from="1717689692826" duration="2839000" />
-      <workItem from="1717692580651" duration="301000" />
-    </task>
-    <task id="LOCAL-00055" summary="format code">
-      <option name="closed" value="true" />
-      <created>1716811249158</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1716811249159</updated>
-    </task>
-    <task id="LOCAL-00056" summary="update snapshot versions">
-      <option name="closed" value="true" />
-      <created>1716824868266</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1716824868268</updated>
+      <workItem from="1717692580651" duration="718000" />
     </task>
     <task id="LOCAL-00057" summary="add dependencies for config-service">
       <option name="closed" value="true" />
@@ -595,15 +579,29 @@
       <option name="project" value="LOCAL" />
       <updated>1717692527273</updated>
     </task>
-    <option name="localTasksCounter" value="104" />
+    <task id="LOCAL-00104" summary="update testing documentation">
+      <option name="closed" value="true" />
+      <created>1717692922269</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1717692922269</updated>
+    </task>
+    <task id="LOCAL-00105" summary="add image">
+      <option name="closed" value="true" />
+      <created>1717693282406</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1717693282406</updated>
+    </task>
+    <option name="localTasksCounter" value="106" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add dependencies for discovery-service" />
-    <MESSAGE value="add dependencies for employee-service" />
     <MESSAGE value="add dependencies for gateway-service" />
     <MESSAGE value="add dependencies for organization-service" />
     <MESSAGE value="update dependencies for root" />
@@ -627,7 +625,9 @@
     <MESSAGE value="update service urls" />
     <MESSAGE value="add postman collection" />
     <MESSAGE value="update project files" />
-    <option name="LAST_COMMIT_MESSAGE" value="update project files" />
+    <MESSAGE value="update testing documentation" />
+    <MESSAGE value="add image" />
+    <option name="LAST_COMMIT_MESSAGE" value="add image" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
