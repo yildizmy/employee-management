@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="828b8a5f-c021-4161-9e44-e1f8c964f38a" name="Changes" comment="update testing documentation" />
+    <list default="true" id="828b8a5f-c021-4161-9e44-e1f8c964f38a" name="Changes" comment="update workspace.xml">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-service/src/main/resources/docs/how_to_test.md" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/src/main/resources/docs/how_to_test.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -198,15 +201,9 @@
       <workItem from="1717014924733" duration="10394000" />
       <workItem from="1717688477035" duration="889000" />
       <workItem from="1717689692826" duration="2839000" />
-      <workItem from="1717692580651" duration="2257000" />
-    </task>
-    <task id="LOCAL-00062" summary="add dependencies for organization-service">
-      <option name="closed" value="true" />
-      <created>1716825099768</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1716825099768</updated>
+      <workItem from="1717692580651" duration="2288000" />
+      <workItem from="1717703543243" duration="8000" />
+      <workItem from="1717710541422" duration="1810000" />
     </task>
     <task id="LOCAL-00063" summary="update dependencies for root">
       <option name="closed" value="true" />
@@ -592,7 +589,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717693659730</updated>
     </task>
-    <option name="localTasksCounter" value="111" />
+    <task id="LOCAL-00111" summary="update workspace.xml">
+      <option name="closed" value="true" />
+      <created>1717695710995</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1717695710995</updated>
+    </task>
+    <option name="localTasksCounter" value="112" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -613,7 +618,6 @@
     <MESSAGE value="update method names for employee-service" />
     <MESSAGE value="update method names for organization-service" />
     <MESSAGE value="remove help.md file" />
-    <MESSAGE value="update workspace.xml" />
     <MESSAGE value="format code" />
     <MESSAGE value="update scanned package for department-service" />
     <MESSAGE value="update scanned package for employee-service" />
@@ -624,7 +628,8 @@
     <MESSAGE value="update project files" />
     <MESSAGE value="add image" />
     <MESSAGE value="update testing documentation" />
-    <option name="LAST_COMMIT_MESSAGE" value="update testing documentation" />
+    <MESSAGE value="update workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="update workspace.xml" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

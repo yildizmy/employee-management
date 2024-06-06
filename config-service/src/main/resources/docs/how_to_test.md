@@ -60,6 +60,18 @@ The following endpoints can be used in order to test services:
 <br/>
 <br/>
 
+### Eureka Dashboard
+
+After starting all the services, Eureka Dashboard would be available on http://localhost:8061/.
+
+<br/>
+
+<img src="../images/eureka_dahboard.png" width="960"/>
+
+
+<br/>
+<br/>
+
 ### Zipkin Dashboard
 
 In order to access Zipkin dashboard, open http://localhost:9411/zipkin/, click `Run Query` and then check the collected traces.
