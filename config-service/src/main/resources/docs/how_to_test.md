@@ -12,7 +12,7 @@ For Open API (Swagger) Documentation UI and the endpoints, open localhost:8060/s
 
 ### Postman Collection
 
-The [Postman Collection](postman/employee_management.postman_collection.json) shared in the resources can be modified and used
+The [Postman Collection](../postman/employee_management.postman_collection.json) shared in the resources can be modified and used
 for testing the endpoints.
 
 <br/>
