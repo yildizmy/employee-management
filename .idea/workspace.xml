@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="828b8a5f-c021-4161-9e44-e1f8c964f38a" name="Changes" comment="add postman collection">
+    <list default="true" id="828b8a5f-c021-4161-9e44-e1f8c964f38a" name="Changes" comment="update project files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-service/src/main/resources/docs/how_to_test.md" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/src/main/resources/docs/how_to_test.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +118,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.GatewayApplication">
+  <component name="RunManager" selected="Spring Boot.ConfigApplication">
     <configuration name="ConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="config-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.github.yildizmy.ConfigApplication" />
@@ -199,15 +200,8 @@
       <workItem from="1716853760797" duration="27349000" />
       <workItem from="1717014924733" duration="10394000" />
       <workItem from="1717688477035" duration="889000" />
-      <workItem from="1717689692826" duration="2808000" />
-    </task>
-    <task id="LOCAL-00054" summary="update dependencies for project">
-      <option name="closed" value="true" />
-      <created>1716720419128</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1716720419128</updated>
+      <workItem from="1717689692826" duration="2839000" />
+      <workItem from="1717692580651" duration="301000" />
     </task>
     <task id="LOCAL-00055" summary="format code">
       <option name="closed" value="true" />
@@ -593,7 +587,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717691834730</updated>
     </task>
-    <option name="localTasksCounter" value="103" />
+    <task id="LOCAL-00103" summary="update project files">
+      <option name="closed" value="true" />
+      <created>1717692527273</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1717692527273</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -621,11 +623,11 @@
     <MESSAGE value="update scanned package for department-service" />
     <MESSAGE value="update scanned package for employee-service" />
     <MESSAGE value="update scanned package for organization-service" />
-    <MESSAGE value="update project files" />
     <MESSAGE value="update log by endpoint method name" />
     <MESSAGE value="update service urls" />
     <MESSAGE value="add postman collection" />
-    <option name="LAST_COMMIT_MESSAGE" value="add postman collection" />
+    <MESSAGE value="update project files" />
+    <option name="LAST_COMMIT_MESSAGE" value="update project files" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
