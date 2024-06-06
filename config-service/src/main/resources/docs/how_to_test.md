@@ -65,7 +65,9 @@ The following endpoints can be used in order to test services:
 ### Zipkin Dashboard
 
 In order to access Zipkin dashboard, open http://localhost:9411/zipkin/, click `Run Query` and then check the collected traces.
+
 <br/>
+
 <img src="../images/zipkin_dahboard.png" width="960"/>
 
 <br/>

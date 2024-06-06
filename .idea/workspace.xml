@@ -200,15 +200,7 @@
       <workItem from="1717014924733" duration="10394000" />
       <workItem from="1717688477035" duration="889000" />
       <workItem from="1717689692826" duration="2839000" />
-      <workItem from="1717692580651" duration="995000" />
-    </task>
-    <task id="LOCAL-00059" summary="add dependencies for discovery-service">
-      <option name="closed" value="true" />
-      <created>1716825001302</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1716825001302</updated>
+      <workItem from="1717692580651" duration="1049000" />
     </task>
     <task id="LOCAL-00060" summary="add dependencies for employee-service">
       <option name="closed" value="true" />
@@ -594,7 +586,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717693402228</updated>
     </task>
-    <option name="localTasksCounter" value="108" />
+    <task id="LOCAL-00108" summary="update testing documentation">
+      <option name="closed" value="true" />
+      <created>1717693587571</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1717693587571</updated>
+    </task>
+    <option name="localTasksCounter" value="109" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
