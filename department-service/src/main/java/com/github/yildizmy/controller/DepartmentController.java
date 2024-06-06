@@ -23,16 +23,16 @@ public class DepartmentController {
         return repository.add(department);
     }
 
-    @GetMapping("/{id}")
-    public Department findById(@PathVariable("id") Long id) {
-        log.info("Department findById: id={}", id);
-        return repository.findById(id);
-    }
-
     @GetMapping("/")
     public List<Department> findAll() {
         log.info("Department findAll");
         return repository.findAll();
+    }
+
+    @GetMapping("/{id}")
+    public Department findById(@PathVariable("id") Long id) {
+        log.info("Department findById: id={}", id);
+        return repository.findById(id);
     }
 
     @GetMapping("/organizations/{id}")
