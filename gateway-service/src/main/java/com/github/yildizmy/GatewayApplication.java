@@ -55,7 +55,7 @@ public class GatewayApplication {
         Set<AbstractSwaggerUiConfigProperties.SwaggerUrl> urls = new HashSet<>();
         List<RouteDefinition> definitions = locator.getRouteDefinitions().collectList().block();
         definitions.stream().filter(routeDefinition -> routeDefinition.getId().matches(".*-service")).forEach(routeDefinition -> {
-            String name = routeDefinition.getId().replaceAll("-service", "");
+            String name = routeDefinition.getId().replaceAll("-service", "s");
             AbstractSwaggerUiConfigProperties.SwaggerUrl swaggerUrl = new AbstractSwaggerUiConfigProperties.SwaggerUrl(name, "/" + name, null);
             urls.add(swaggerUrl);
         });
