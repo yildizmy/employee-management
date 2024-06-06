@@ -22,8 +22,8 @@ This microservices-based system consists of the following modules:
 - **config-service** : uses Spring Cloud Config Server for running configuration server in the `native` mode
 - **discovery-service** : uses Spring Cloud Netflix Eureka as an embedded discovery server
 - **employee-service** : sample microservice that allows to perform CRUD operation on in-memory repository of employees
-- **department-service** : sample microservice that allows to perform CRUD operation on in-memory repository of departments. Communicates with employee-service.
-- **organization-service** : sample microservice that allows to perform CRUD operation on in-memory repository of organizations. Communicates with both employee-service and department-service.
+- **department-service** : sample microservice that allows to perform CRUD operation on in-memory repository of departments and communicates with employee-service.
+- **organization-service** : sample microservice that allows to perform CRUD operation on in-memory repository of organizations and communicates with both employee-service and department-service.
 
 <br/>
 
