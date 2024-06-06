@@ -23,25 +23,25 @@ public class EmployeeController {
 
     @GetMapping("/{id}")
     public Employee findById(@PathVariable("id") Long id) {
-        log.info("Employee find: id={}", id);
+        log.info("Employee findById: id={}", id);
         return repository.findById(id);
     }
 
     @GetMapping("/")
     public List<Employee> findAll() {
-        log.info("Employee find");
+        log.info("Employee findAll");
         return repository.findAll();
     }
 
     @GetMapping("/departments/{id}")
     public List<Employee> findByDepartmentId(@PathVariable("id") Long id) {
-        log.info("Employee find: departmentId={}", id);
+        log.info("Employee findByDepartmentId: departmentId={}", id);
         return repository.findByDepartmentId(id);
     }
 
     @GetMapping("/organizations/{id}")
     public List<Employee> findByOrganizationId(@PathVariable("id") Long id) {
-        log.info("Employee find: organizationId={}", id);
+        log.info("Employee findByOrganizationId: organizationId={}", id);
         return repository.findByOrganizationId(id);
     }
 }
