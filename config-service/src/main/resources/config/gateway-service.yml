@@ -24,21 +24,21 @@ spring:
         - id: employee-service
           uri: lb://employee-service
           predicates:
-            - Path=/employee/**
+            - Path=/employees/**
           filters:
-            - RewritePath=/employee/(?<path>.*), /$\{path}
+            - RewritePath=/employees/(?<path>.*), /$\{path}
         - id: department-service
           uri: lb://department-service
           predicates:
-            - Path=/department/**
+            - Path=/departments/**
           filters:
-            - RewritePath=/department/(?<path>.*), /$\{path}
+            - RewritePath=/departments/(?<path>.*), /$\{path}
         - id: organization-service
           uri: lb://organization-service
           predicates:
-            - Path=/organization/**
+            - Path=/organizations/**
           filters:
-            - RewritePath=/organization/(?<path>.*), /$\{path}
+            - RewritePath=/organizations/(?<path>.*), /$\{path}
         - id: openapi
           uri: http://localhost:${server.port}
           predicates:
