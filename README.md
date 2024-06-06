@@ -30,8 +30,7 @@ This microservices-based system consists of the following modules:
 
 ## Getting Started
 
-> [!NOTE]
-> The following apps should be installed before running the application:
+The following apps should be installed before running the application:
 
 - A command line app
 - Docker Desktop
