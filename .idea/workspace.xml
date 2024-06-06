@@ -4,16 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="828b8a5f-c021-4161-9e44-e1f8c964f38a" name="Changes" comment="update workspace.xml">
+    <list default="true" id="828b8a5f-c021-4161-9e44-e1f8c964f38a" name="Changes" comment="update log by endpoint method name">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-service/src/main/java/com/github/yildizmy/ConfigApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/src/main/java/com/github/yildizmy/ConfigApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-service/src/main/resources/config/department-service-docker.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/src/main/resources/config/department-service-docker.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-service/src/main/resources/config/department-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/src/main/resources/config/department-service.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-service/src/main/resources/config/employee-service-docker.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/src/main/resources/config/employee-service-docker.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-service/src/main/resources/config/employee-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/src/main/resources/config/employee-service.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-service/src/main/resources/config/organization-service-docker.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/src/main/resources/config/organization-service-docker.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-service/src/main/resources/config/organization-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/src/main/resources/config/organization-service.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-service/src/main/resources/config/gateway-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/src/main/resources/config/gateway-service.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config-service/src/main/resources/docs/how_to_test.md" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/src/main/resources/docs/how_to_test.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/department-service/src/main/java/com/github/yildizmy/controller/DepartmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/department-service/src/main/java/com/github/yildizmy/controller/DepartmentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee-service/src/main/java/com/github/yildizmy/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/github/yildizmy/controller/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/organization-service/src/main/java/com/github/yildizmy/controller/OrganizationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/organization-service/src/main/java/com/github/yildizmy/controller/OrganizationController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +68,6 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "false",
     "Spring Boot.ConfigApplication.executor": "Debug",
     "Spring Boot.DepartmentApplication.executor": "Debug",
@@ -125,7 +121,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.OrganizationApplication">
+  <component name="RunManager" selected="Spring Boot.EmployeeApplication">
     <configuration name="ConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="config-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.github.yildizmy.ConfigApplication" />
@@ -168,6 +164,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.ConfigApplication" />
+      <item itemvalue="Spring Boot.DepartmentApplication" />
+      <item itemvalue="Spring Boot.DiscoveryApplication" />
+      <item itemvalue="Spring Boot.EmployeeApplication" />
+      <item itemvalue="Spring Boot.GatewayApplication" />
+      <item itemvalue="Spring Boot.OrganizationApplication" />
+    </list>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -198,70 +202,6 @@
       <workItem from="1716853125217" duration="484000" />
       <workItem from="1716853760797" duration="27349000" />
       <workItem from="1717014924733" duration="10394000" />
-    </task>
-    <task id="LOCAL-00044" summary="update .gitignore for root project">
-      <option name="closed" value="true" />
-      <created>1716717238680</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1716717238680</updated>
-    </task>
-    <task id="LOCAL-00045" summary="add app name">
-      <option name="closed" value="true" />
-      <created>1716719970515</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1716719970515</updated>
-    </task>
-    <task id="LOCAL-00046" summary="add banner for config-service">
-      <option name="closed" value="true" />
-      <created>1716720006905</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1716720006905</updated>
-    </task>
-    <task id="LOCAL-00047" summary="add banner for department-service">
-      <option name="closed" value="true" />
-      <created>1716720083635</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1716720083635</updated>
-    </task>
-    <task id="LOCAL-00048" summary="add banner for discovery-service">
-      <option name="closed" value="true" />
-      <created>1716720115772</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1716720115772</updated>
-    </task>
-    <task id="LOCAL-00049" summary="add banner for employee-service">
-      <option name="closed" value="true" />
-      <created>1716720144657</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1716720144657</updated>
-    </task>
-    <task id="LOCAL-00050" summary="add banner for gateway-service">
-      <option name="closed" value="true" />
-      <created>1716720177795</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1716720177796</updated>
-    </task>
-    <task id="LOCAL-00051" summary="add banner for organization-service">
-      <option name="closed" value="true" />
-      <created>1716720225738</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1716720225738</updated>
     </task>
     <task id="LOCAL-00052" summary="update .idea files">
       <option name="closed" value="true" />
@@ -591,18 +531,77 @@
       <option name="project" value="LOCAL" />
       <updated>1717101598743</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="format code">
+      <option name="closed" value="true" />
+      <created>1717613110672</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1717613110674</updated>
+    </task>
+    <task id="LOCAL-00094" summary="update scanned package for department-service">
+      <option name="closed" value="true" />
+      <created>1717613344297</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1717613344297</updated>
+    </task>
+    <task id="LOCAL-00095" summary="update scanned package for employee-service">
+      <option name="closed" value="true" />
+      <created>1717613378360</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1717613378360</updated>
+    </task>
+    <task id="LOCAL-00096" summary="update scanned package for organization-service">
+      <option name="closed" value="true" />
+      <created>1717613411739</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1717613411739</updated>
+    </task>
+    <task id="LOCAL-00097" summary="update project files">
+      <option name="closed" value="true" />
+      <created>1717613461371</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1717613461371</updated>
+    </task>
+    <task id="LOCAL-00098" summary="update log by endpoint method name">
+      <option name="closed" value="true" />
+      <created>1717674702412</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1717674702412</updated>
+    </task>
+    <task id="LOCAL-00099" summary="update log by endpoint method name">
+      <option name="closed" value="true" />
+      <created>1717674738726</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1717674738726</updated>
+    </task>
+    <task id="LOCAL-00100" summary="update log by endpoint method name">
+      <option name="closed" value="true" />
+      <created>1717674755901</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1717674755901</updated>
+    </task>
+    <option name="localTasksCounter" value="101" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add banner for employee-service" />
-    <MESSAGE value="add banner for gateway-service" />
-    <MESSAGE value="add banner for organization-service" />
-    <MESSAGE value="update dependencies for project" />
-    <MESSAGE value="update snapshot versions" />
     <MESSAGE value="add dependencies for config-service" />
     <MESSAGE value="add dependencies for department-service" />
     <MESSAGE value="add dependencies for discovery-service" />
@@ -619,11 +618,16 @@
     <MESSAGE value="update readme" />
     <MESSAGE value="update method names for department-service" />
     <MESSAGE value="update method names for employee-service" />
-    <MESSAGE value="format code" />
     <MESSAGE value="update method names for organization-service" />
     <MESSAGE value="remove help.md file" />
     <MESSAGE value="update workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="update workspace.xml" />
+    <MESSAGE value="format code" />
+    <MESSAGE value="update scanned package for department-service" />
+    <MESSAGE value="update scanned package for employee-service" />
+    <MESSAGE value="update scanned package for organization-service" />
+    <MESSAGE value="update project files" />
+    <MESSAGE value="update log by endpoint method name" />
+    <option name="LAST_COMMIT_MESSAGE" value="update log by endpoint method name" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
