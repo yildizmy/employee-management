@@ -6,7 +6,7 @@ After starting the app, some test data is generated automatically.
 
 ### Open API (Swagger) UI
 
-For Open API (Swagger) Documentation UI and the endpoints, open localhost:8060/swagger-ui.html after running the app.
+For Open API (Swagger) Documentation UI and the endpoints, open http://localhost:8060/swagger-ui.html/ after running the app.
 
 <br/>
 
