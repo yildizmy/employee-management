@@ -1,5 +1,5 @@
 ## employee-management
-Sample Microservices with Spring Boot 3, Spring Cloud, FeignClient and Zipkin
+Microservices demo Spring Boot 3, Spring Cloud, FeignClient and Zipkin.
 
 > [!NOTE]
 > To provide a clearer focus on the microservices architecture in this application, some features, such as database, services and validation have been omitted and in-memory data is used.
